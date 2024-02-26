@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+}
+#social{
+  background-color: hsl(0, 0%, 20%);
+  width: 400px;
+  height: 750px;
+  border-radius: 15px;
+  display: block;
+  position: relative;
+  left: 800px;
+  top: 100px;
+}
+.logo{
+  position: absolute;
+  border-radius: 50%;
+  left: 27%;
+  top: 6%;
+}
+#social h1,p,h3{
+  text-align: center;
+  position: relative;
+  top: 240px;
+  background: transparent;
+}
+nav{
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  background: #28282A;
+  border-radius: 15px;
+  background-color: transparent;
+
+}
+nav ul{
+  padding: 15px;
+  text-align: center;
+  margin: 20px 30px;
+  border-radius: 20px;
+  font-weight: 500;
+  
+}
+nav ul:hover{
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+nav a {
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width:1220px) {
+  #social{
+    position: relative;
+    left:20%;
+  }
+  
+}
